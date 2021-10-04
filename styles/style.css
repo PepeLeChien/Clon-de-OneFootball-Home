@@ -78,7 +78,6 @@ header .header-nav ul li a:hover {
     padding: 3.5rem;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .container-main .title-topnews {
@@ -143,4 +142,41 @@ header .header-nav ul li a:hover {
 .main-new article img,
 .main-new article p {
     margin: .5rem;
+}
+
+.container-main .container-main_secondary {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-main_secondary .secondary-news {
+    width: 23%;
+    height: 35rem;
+    min-width: 30rem;
+}
+.secondary-news {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.secondary-news img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border: solid #777 .2rem;
+}
+
+.secondary-news footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self:flex-end;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.container-main > section {
+    margin-bottom: 4rem;
 }
