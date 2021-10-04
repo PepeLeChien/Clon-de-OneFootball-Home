@@ -68,3 +68,25 @@ header .header-nav ul li a {
 header .header-nav ul li a:hover {
     text-decoration: underline solid #000;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+#sonsera {
+    height: 50rem;
+    width: 70rem;
+    border: #000 .2rem solid;
+}
+#sonsera img {
+    width: 100%;
+}
+#sonsera figcaption {
+    text-align: center;
+    font-size: 7rem;
+    font-family: 'Akronim', cursive;
+}
